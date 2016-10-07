@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE01786D1D8DFE4900365C1C /* FailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE01786C1D8DFE4900365C1C /* FailViewController.m */; };
 		EE096F741D8C8F8000B5958D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE096F731D8C8F8000B5958D /* main.m */; };
 		EE096F771D8C8F8000B5958D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE096F761D8C8F8000B5958D /* AppDelegate.m */; };
-		EE096F7A1D8C8F8000B5958D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE096F791D8C8F8000B5958D /* ViewController.m */; };
 		EE096F7D1D8C8F8000B5958D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE096F7B1D8C8F8000B5958D /* Main.storyboard */; };
 		EE096F7F1D8C8F8000B5958D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE096F7E1D8C8F8000B5958D /* Assets.xcassets */; };
 		EE096F821D8C8F8000B5958D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE096F801D8C8F8000B5958D /* LaunchScreen.storyboard */; };
 		EE096F8D1D8C8F8000B5958D /* HackCMUTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE096F8C1D8C8F8000B5958D /* HackCMUTests.m */; };
 		EE096F981D8C8F8000B5958D /* HackCMUUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE096F971D8C8F8000B5958D /* HackCMUUITests.m */; };
+		EE37BF2C1D8CA4200054419E /* NodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37BF2B1D8CA4200054419E /* NodeView.m */; };
+		EE37BF321D8CACA70054419E /* StartViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37BF311D8CACA70054419E /* StartViewViewController.m */; };
+		EE37BF351D8CACB90054419E /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37BF341D8CACB90054419E /* GameViewController.m */; };
+		EE37BF381D8CACBD0054419E /* EndViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37BF371D8CACBD0054419E /* EndViewController.m */; };
+		EE37BF511D8CBC820054419E /* CFile.c in Sources */ = {isa = PBXBuildFile; fileRef = EE37BF4F1D8CBC820054419E /* CFile.c */; };
+		EE37BF541D8CEE950054419E /* LinkCAShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37BF531D8CEE950054419E /* LinkCAShapeLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE01786B1D8DFE4900365C1C /* FailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailViewController.h; sourceTree = "<group>"; };
+		EE01786C1D8DFE4900365C1C /* FailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailViewController.m; sourceTree = "<group>"; };
 		EE096F6F1D8C8F8000B5958D /* HackCMU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackCMU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE096F731D8C8F8000B5958D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE096F751D8C8F8000B5958D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE096F761D8C8F8000B5958D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EE096F781D8C8F8000B5958D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EE096F791D8C8F8000B5958D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EE096F7C1D8C8F8000B5958D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE096F7E1D8C8F8000B5958D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE096F811D8C8F8000B5958D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +57,18 @@
 		EE096F931D8C8F8000B5958D /* HackCMUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackCMUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE096F971D8C8F8000B5958D /* HackCMUUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackCMUUITests.m; sourceTree = "<group>"; };
 		EE096F991D8C8F8000B5958D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE37BF2A1D8CA4200054419E /* NodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeView.h; sourceTree = "<group>"; };
+		EE37BF2B1D8CA4200054419E /* NodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeView.m; sourceTree = "<group>"; };
+		EE37BF301D8CACA70054419E /* StartViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartViewViewController.h; path = ../StartViewViewController.h; sourceTree = "<group>"; };
+		EE37BF311D8CACA70054419E /* StartViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StartViewViewController.m; path = ../StartViewViewController.m; sourceTree = "<group>"; };
+		EE37BF331D8CACB90054419E /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameViewController.h; path = ../GameViewController.h; sourceTree = "<group>"; };
+		EE37BF341D8CACB90054419E /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameViewController.m; path = ../GameViewController.m; sourceTree = "<group>"; };
+		EE37BF361D8CACBD0054419E /* EndViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EndViewController.h; path = ../EndViewController.h; sourceTree = "<group>"; };
+		EE37BF371D8CACBD0054419E /* EndViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EndViewController.m; path = ../EndViewController.m; sourceTree = "<group>"; };
+		EE37BF4F1D8CBC820054419E /* CFile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = CFile.c; path = ../CFile.c; sourceTree = "<group>"; };
+		EE37BF501D8CBC820054419E /* CFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFile.h; path = ../CFile.h; sourceTree = "<group>"; };
+		EE37BF521D8CEE950054419E /* LinkCAShapeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkCAShapeLayer.h; sourceTree = "<group>"; };
+		EE37BF531D8CEE950054419E /* LinkCAShapeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkCAShapeLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +119,22 @@
 		EE096F711D8C8F8000B5958D /* HackCMU */ = {
 			isa = PBXGroup;
 			children = (
+				EE37BF4F1D8CBC820054419E /* CFile.c */,
+				EE37BF501D8CBC820054419E /* CFile.h */,
+				EE37BF331D8CACB90054419E /* GameViewController.h */,
+				EE37BF341D8CACB90054419E /* GameViewController.m */,
+				EE01786B1D8DFE4900365C1C /* FailViewController.h */,
+				EE01786C1D8DFE4900365C1C /* FailViewController.m */,
+				EE37BF521D8CEE950054419E /* LinkCAShapeLayer.h */,
+				EE37BF531D8CEE950054419E /* LinkCAShapeLayer.m */,
+				EE37BF361D8CACBD0054419E /* EndViewController.h */,
+				EE37BF371D8CACBD0054419E /* EndViewController.m */,
+				EE37BF301D8CACA70054419E /* StartViewViewController.h */,
+				EE37BF311D8CACA70054419E /* StartViewViewController.m */,
 				EE096F751D8C8F8000B5958D /* AppDelegate.h */,
 				EE096F761D8C8F8000B5958D /* AppDelegate.m */,
-				EE096F781D8C8F8000B5958D /* ViewController.h */,
-				EE096F791D8C8F8000B5958D /* ViewController.m */,
+				EE37BF2A1D8CA4200054419E /* NodeView.h */,
+				EE37BF2B1D8CA4200054419E /* NodeView.m */,
 				EE096F7B1D8C8F8000B5958D /* Main.storyboard */,
 				EE096F7E1D8C8F8000B5958D /* Assets.xcassets */,
 				EE096F801D8C8F8000B5958D /* LaunchScreen.storyboard */,
@@ -273,7 +303,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE096F7A1D8C8F8000B5958D /* ViewController.m in Sources */,
+				EE37BF2C1D8CA4200054419E /* NodeView.m in Sources */,
+				EE37BF351D8CACB90054419E /* GameViewController.m in Sources */,
+				EE37BF511D8CBC820054419E /* CFile.c in Sources */,
+				EE37BF541D8CEE950054419E /* LinkCAShapeLayer.m in Sources */,
+				EE37BF321D8CACA70054419E /* StartViewViewController.m in Sources */,
+				EE01786D1D8DFE4900365C1C /* FailViewController.m in Sources */,
+				EE37BF381D8CACBD0054419E /* EndViewController.m in Sources */,
 				EE096F771D8C8F8000B5958D /* AppDelegate.m in Sources */,
 				EE096F741D8C8F8000B5958D /* main.m in Sources */,
 			);
@@ -501,6 +537,7 @@
 				EE096F9E1D8C8F8000B5958D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE096F9F1D8C8F8000B5958D /* Build configuration list for PBXNativeTarget "HackCMUTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +546,7 @@
 				EE096FA11D8C8F8000B5958D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE096FA21D8C8F8000B5958D /* Build configuration list for PBXNativeTarget "HackCMUUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +555,7 @@
 				EE096FA41D8C8F8000B5958D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

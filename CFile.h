@@ -1,15 +1,14 @@
 //
-//  ViewController.h
+//  CFile.h
 //  HackCMU
 //
 //  Created by Kaige Liu on 9/16/16.
 //  Copyright © 2016 Dustin Liu. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#ifndef CFile_h
+#define CFile_h
 
-@interface ViewController : UIViewController
+#include <stdio.h>
 
-
-@end
-
+#endif /* CFile_h */
