@@ -1,6 +1,8 @@
 # HackCMU
 This app is developed by a group of 4 within 24 hours in the annual HackCMU Contest.
+
 The following is the intro to the app:
+
 It is a warm Sunday morning. You log onto your facebook page, when you suddenly notice that some of your friends become zombies and start to bite people!
  
 However, a brilliant scientist like you never gives up. You have 3 powerful weapons: medicine, vaccine and insulation room. Medicine cures zombies, vaccine protects your healthy friends, and insulation room separates zombies from others. Fully equipped, you begin your adventure to save your friends!
